@@ -1,0 +1,27 @@
+{
+  "name": "stylelint-config",
+  "version": "0.0.0",
+  "description": "Endouble's CSS Stylelint configuration",
+  "main": "./config/index.js",
+  "repository": {
+    "url": "https://github.com/Endouble/stylelint-config",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "eslint test/*.js config/*.js && mocha"
+  },
+  "author": "Renan Couto <renancouto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@endouble.com/eslint-config-endouble": "^0.2.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.3.0",
+    "stylelint-declaration-strict-value": "^1.0.3",
+    "stylelint-order": "^0.4.3",
+    "stylelint-scss": "^1.4.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
