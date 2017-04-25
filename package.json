@@ -1,5 +1,5 @@
 {
-  "name": "@endouble.com/stylelint-config",
+  "name": "@endouble.com/stylelint-config-endouble",
   "version": "0.1.0",
   "description": "Endouble's CSS Stylelint configuration",
   "main": "./config/index.js",
