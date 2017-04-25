@@ -1,0 +1,20 @@
+.good {
+    color: $primary;
+    z-index: map-get($depths, 'top');
+}
+
+.safe-to-use {
+    background: transparent;
+    border-color: black;
+    color: white;
+    fill: currentColor;
+    z-index: inherit;
+}
+
+.bad {
+    background-color: purple;
+    border-color: yellow;
+    color: #333;
+    fill: silver;
+    z-index: 10;
+}

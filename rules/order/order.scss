@@ -1,0 +1,31 @@
+.ok {
+    $_color: #333;
+    border-color: $_color;
+    color: inherit;
+    @include my-mixin;
+
+    @include breakpoint() {
+        display: inline;
+    }
+
+    &:hover {
+        color: black;
+    }
+}
+
+.nope {
+    color: inherit;
+
+    &:hover {
+        color: black;
+    }
+
+    $_color: #333;
+    border-color: $_color;
+
+    @include breakpoint() {
+        display: inline;
+    }
+
+    @include my-mixin;
+}

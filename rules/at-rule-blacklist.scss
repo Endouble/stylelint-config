@@ -1,0 +1,4 @@
+.bad {
+    @extend .nope;
+    @extend %not-cool;
+}
