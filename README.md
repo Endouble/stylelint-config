@@ -1,6 +1,8 @@
 # stylelint-config
 > Endouble's CSS Stylelint configuration
 
+[![npm](https://img.shields.io/npm/v/@endouble.com/stylelint-config-endouble.svg)](https://npmjs.com/package/@endouble.com/stylelint-config-endouble)
+
 ## Install
 Make sure you have Node (>=6) installed
 
