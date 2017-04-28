@@ -14,7 +14,7 @@ module.exports = {
     'length-zero-no-unit': true,
     'max-empty-lines': 1,
     'max-line-length': [120, { severity: 'warning' }],
-    'max-nesting-depth': 3,
+    'max-nesting-depth': 4,
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': ['always', { except: ['first-nested', 'after-single-line-comment'] }],
     'selector-class-pattern': '(?!(js-))^[a-z-_]+$',
