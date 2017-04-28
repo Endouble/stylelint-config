@@ -13,6 +13,16 @@
     }
 }
 
+@function ok-function($keys...) {
+    $map: $settings;
+
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+
+    @return $map;
+}
+
 .nope {
     color: inherit;
 

@@ -32,6 +32,7 @@ module.exports = {
         { type: 'at-rule', hasBlock: false },
         { type: 'at-rule', hasBlock: true },
         'rules',
+        { type: 'at-rule', name: 'return' },
     ],
     'scss/dollar-variable-colon-space-after': 'always',
     'scss/dollar-variable-colon-space-before': 'never',
