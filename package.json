@@ -1,6 +1,6 @@
 {
   "name": "@endouble.com/stylelint-config-endouble",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Endouble's CSS Stylelint configuration",
   "main": "./config/index.js",
   "repository": {
