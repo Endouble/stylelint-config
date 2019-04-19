@@ -19,9 +19,10 @@ module.exports = {
     'rule-empty-line-before': ['always', { except: ['first-nested', 'after-single-line-comment'] }],
     'selector-class-pattern': '(?!(js-))^[a-z-_]+$',
     'selector-list-comma-newline-after': 'always',
-    'selector-no-id': true,
-    'selector-no-type': true,
+    'selector-max-id': 0,
+    'selector-max-type': [0, { ignoreTypes: ['/li/'] }],
     'selector-no-vendor-prefix': true,
+    'selector-pseudo-element-colon-notation': 'double',
     'value-no-vendor-prefix': true,
 
     // custom plugin rules
