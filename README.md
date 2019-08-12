@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/@endouble.com/stylelint-config-endouble.svg)](https://npmjs.com/package/@endouble.com/stylelint-config-endouble)
 
 ## Install
-Make sure you have Node (>=6) installed
+Make sure you have Node (>=8) installed
 
 ```bash
 npm install stylelint @endouble.com/stylelint-config-endouble --save-dev
