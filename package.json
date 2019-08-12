@@ -1,29 +1,31 @@
 {
-  "name": "@endouble.com/stylelint-config-endouble",
-  "version": "0.4.0",
-  "description": "Endouble's CSS Stylelint configuration",
-  "main": "./config/index.js",
-  "repository": {
-    "url": "https://github.com/Endouble/stylelint-config",
-    "type": "git"
-  },
-  "scripts": {
-    "test": "eslint test/*.js config/*.js && mocha"
-  },
-  "author": "Renan Couto <renancouto@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "stylelint-declaration-strict-value": "^1.0.3",
-    "stylelint-order": "^0.4.3",
-    "stylelint-scss": "^1.4.4"
-  },
-  "devDependencies": {
-    "@endouble.com/eslint-config-endouble": "^0.4.1",
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "mocha": "^3.3.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@endouble.com/stylelint-config-endouble",
+    "version": "0.5.0",
+    "description": "Endouble's CSS Stylelint configuration",
+    "main": "./config/index.js",
+    "repository": {
+        "url": "https://github.com/Endouble/stylelint-config",
+        "type": "git"
+    },
+    "scripts": {
+        "test": "eslint test/*.js config/*.js && mocha"
+    },
+    "author": "Renan Couto <renancouto@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "js-yaml": "3.13.1",
+        "stylelint": "^10.1.0",
+        "stylelint-declaration-strict-value": "1.1.3",
+        "stylelint-order": "3.0.1",
+        "stylelint-scss": "3.9.3"
+    },
+    "devDependencies": {
+        "@endouble.com/eslint-config-endouble": "^2.1.1",
+        "eslint": "^6.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "mocha": "^6.2.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
